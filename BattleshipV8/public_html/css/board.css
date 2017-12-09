@@ -1,0 +1,54 @@
+/* everything  */
+* {
+    background: url('');
+    background-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*  Cell Sizes */
+td{
+	height: 40px;
+	width: 50px;
+}
+/*  PLAYER 1 */
+
+#playerTable {
+
+
+    background: url('../pic/waterTable.gif'); /*"2nd grid"*/
+    background-color: black;
+    background-repeat: space; /* space repeat to make a grid-like repeat*/
+     /*outer Border for the board*/
+    border: 10px groove grey;
+    border-right: 10px ridge white;
+    border-bottom: 10px ridge white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+    box-shadow: 0px 10px 50px black;
+    float: left;
+}
+/*  PLAYER 2 */
+#progressTable {
+    
+    
+}
+/* 0-9 A-J */
+.xAxis, .yAxis {
+    
+    background-color: #d2cfd3;
+	color: black;
+	text-align: center;
+}
+
+/*WATER BACKGROUND */
+.waterCell {
+   
+	background-image: url('../pic/water.gif');
+}
+
+.waterCell:hover{
+	background-image: url('../pic/hover2.png');
+}

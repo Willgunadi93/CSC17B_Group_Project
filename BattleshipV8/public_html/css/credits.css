@@ -1,0 +1,173 @@
+
+body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin:0;
+}
+
+#creditDashboard
+{
+    background-image: url('../creditpics/CreditsBorder.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+/*TOP BUTTONS CSS*/
+.navButtons {
+       
+background-image: url('');/* image of border background*/
+  overflow: hidden;
+  background-color: #333;
+  padding: 0px 0px; /* width of border*/
+  border-top: 2px solid black;
+}
+
+.navButtons a {
+        background-size:0% 100%;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 55px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+  font-size: 17px;
+  border-right: 1px solid #d26a00;
+}
+
+.navButtons a:hover {
+  background-color:rgb(113, 112, 112);
+  transition:background-color 1s;
+}
+.navButtons a.active {
+   background-color:#d26a00;
+background-image:linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%);
+  background-repeat:no-repeat;
+  background-size: 200% 100%; 
+  transition:background-size 1s, background-color 1s;
+}
+
+
+
+.userProfile{
+    background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+   margin: auto;
+}
+.userProfile:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img {
+    border-radius: 5px 5px 0 0;
+}
+.userInfo{
+    
+}
+.userRdr{
+    
+}
+
+#rccLogo
+{
+    background-image: url('');
+	top: 3px;
+	left:250px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+/*ABOUT US CSS*/
+* {
+    box-sizing: border-box;
+}
+
+.AUcontainer {
+     background-image: url('../creditpics/gif19.gif');
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.AUcontainer .AUcontent {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/*   OMAR CSS    */
+.OmarContainer{
+     background-image: url('../creditpics/gif5.gif');
+     background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/*   JORIN CSS    */
+.JorinContainer{
+     background-image: url('../creditpics/gif7.gif');
+     background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/*   MICHAEL CSS    */
+.MichaelContainer{
+     background-image: url('../creditpics/gif11.gif');
+     background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/*   BILL CSS    */
+.BillContainer{
+     background-image: url(../creditpics/gif17.gif);
+     background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+.BillContent {
+    
+    
+}
+/*   IVAN CSS    */
+.IvanContainer{
+     background-image: url('../creditpics/gif21.gif');
+     background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}

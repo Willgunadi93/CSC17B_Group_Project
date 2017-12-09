@@ -1,0 +1,110 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: inherit;
+	height: inherit;
+	background: url("../pic/mainBackground.jpg")  no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#dashboard-container {
+	background-color: rgba(0,0,0,0.8);
+	/*border: 2px solid red;*/
+	height: 150px;
+	width: 100%;
+}
+
+#dashboard {
+	/*border: 2px solid red;*/
+	display: flex;
+	margin: 0px auto;
+	width: 32%;
+}
+
+#shipImage {
+	background-color: #f0ffff;
+	background-image: url("../shipImg/carrier.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+	/*border: 2px solid blue;*/
+	border-radius: 20px;
+	height: 140px;
+	margin: 0px auto;
+	width: 70%;
+}
+
+#nextArrow {
+	/*border: 2px solid purple;*/
+	color: #fff;
+	font-size: 50px;
+	height: 50%;
+	margin-left: -5%;
+        /*margin-left:15px;*/
+	margin-top: 10%;
+}
+
+
+
+#oppTable {
+    background: url('../pic/waterTable.gif');
+    background-color: black;
+    border: 10px groove whitesmoke;
+    border-right: 10px ridge grey;
+    border-bottom: 10px ridge grey;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+    box-shadow: 0px 10px 50px black;
+    background-repeat: space;
+	float: right;
+	float: right;
+}
+
+.controls {
+	display: block;
+	color: white;
+	font-size: 30px;
+	height: 33%;
+	margin-top: 10%;
+       /* margin-right:10px;*/
+}
+
+#nextArrow:hover, .controls:hover {
+	color: salmon;
+}
+
+.playAudio
+{
+    background-image: url('');
+	top: 660px;
+	right: 12px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+
+/*#button-names{
+    color: white;
+}
+
+#reset-name{
+    margin-top: 5px;
+}
+
+#resBoard-name{
+    margin-top: 10px;
+}
+
+#submit-name{
+    margin-top: 25px;
+}*/
