@@ -10,10 +10,9 @@ function vUserPass(username, password) {
 	} else {
 		client = [];
 	}
-	//Console.log for testing
 	console.log(client);
-	//Default value of -3
-	var val = -3;
+	//Default value of -1
+	var val = -1;
 	//Checking username match in local storage
 	//create array of usernames and passwords
 	for (var i = 0; i < client.length; i++) {
@@ -21,7 +20,7 @@ function vUserPass(username, password) {
 			val = i;
 	}
 
-	if (val <= -3) {
+	if (val <= -1) {
 		alert("Incorrect username + password combination");
 		return;
 	}
