@@ -1,0 +1,103 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body{
+ margin-left: 10px;
+ 
+    background: url("../rules/rules.jpg") no-repeat center center fixed;
+        background-size: cover;
+}
+
+img{
+        border-radius: 5px;
+
+}
+
+#header{
+    background-image: url('../rules/rulesdashboard.png');
+         background-repeat: no-repeat;
+         background-position: center;
+    background-size: cover;
+    background-color: #ff8e30;
+    height: 130px;
+	width: 100%;
+        border: 2px solid black;
+        margin: 0px auto;
+        border-radius: 100px;
+}
+/*the entire background box setup*/
+#rulesMain{
+    position: absolute;
+    
+    background-color: #58a8bb;
+
+  height: auto;
+	width: 99%;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        border-radius: 70px;
+        
+}
+
+#rules{
+   
+      
+     
+       
+   
+    width: 20%;
+    
+   
+   
+    float: left;
+    
+    padding: 0px;
+    margin-left: 45px;
+    margin-top: 15px;
+    margin-right: 45px;
+    margin-bottom: 35px;
+}
+
+
+/*boxes*/
+
+.rule-container{
+    
+    background-color: #1a80ad;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+    width: 18%;
+    text-align: center;
+    color: #cdd5d5;
+    border-radius: 5px;
+    float: left;
+    font-family: arial;
+    padding: 0px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+#menuBtn{
+    float: right;
+    margin: 0;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+     border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#menuBtn:hover{
+      background: #3cb0fd;
+ 
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

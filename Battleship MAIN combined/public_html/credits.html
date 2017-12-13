@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credits</title>
+    <link type="text/css" rel="stylesheet" href="css/credits.css">
+</head>
+<body>
+    
+<div id="creditDashboard" style="padding-top:30px">
+  <h2 style="padding-left:600px; font-size:40px; margin-top: -15px; text-shadow: 0px 3px 1px black, 0px 3px 1px black; color: white">Riverside City College</h2>
+  <div> 
+      <img id="rccLogo" src="creditpics/rccLogo.png" alt="">
+      
+  <p style="padding-left:900px; margin-top: -30px; font-size:20px; text-shadow: 0px 3px 1px black, 0px 3px 1px black; color: white; font-weight: bold;">CIS/CSC-17B </p>
+  </div>
+</div>
+    
+    
+<div class="navButtons">
+  <a class="userRdr" onclick="userInfo(event, 'about')" id="aboutUs" style="font-family: arial;">About Us</a>
+  <a class="userRdr" onclick="userInfo(event, 'Omar')" style="font-family: arial;">Omar</a>
+  <a class="userRdr" onclick="userInfo(event, 'Jorin')" style="font-family: arial;">Jorin</a>
+  <a class="userRdr" onclick="userInfo(event, 'Michael')" style="font-family: arial;">Michael</a>
+  <a class="userRdr" onclick="userInfo(event, 'Bill')" style="font-family: arial;">Bill</a>
+  <a class="userRdr" onclick="userInfo(event, 'Ivan')" style="font-family: arial;">Ivan</a>
+  <a href="index.html" style="font-family: arial;">Main Menu</a>
+</div>
+
+    <div id="about" class="userInfo AUcontainer">
+        <p></p>
+  <div class="AUcontent">
+      <h1 style="text-decoration: none;font-family: arial;text-align: center; color: cyan;text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black">WELCOME!</h1>
+    <p style="font-size:20px; font-weight: bold;font-family: arial; text-align: center; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;color: white">We're the Battleship team! As you may have already seen, we have worked together 
+        as a group to present to you the fantastic game known as Battleship.<br> As a team, we have worked hard in an 
+        effort to bring to you a well functioning, competitive 1 vs 1 gamemode where we will face off against an opponent <br>
+        and climb through the ladder to play against the best of the best in the world. <br> <br> In this section you will find
+    the team that made this project possible by clicking on each tab.</p>
+  </div>
+</div>
+
+  
+    
+    
+<div style="padding-left:0px">
+
+   <div id="Omar" class="userInfo OmarContainer">
+       <div class="userProfile">
+           <img src="creditpics/avatar.png" alt="" style="width:100%"/>
+       <h2 style="">Omar Lopez Vie</h2>
+       
+        
+     <p style="padding: 2px 16px;">This is a test paragraph testing 123 This is a test paragraph testing 123 This is a test paragraph testing 123</p>
+     </div>
+  </div>
+  
+    
+    
+  <div id="Jorin" class="userInfo JorinContainer">
+    <div class="userProfile">
+           <img src="creditpics/avatar.png" alt="" style="width:100%"/>
+       <h2 style="">Jorin Mejia</h2>
+  
+     <p style="padding: 2px 16px;">This is a test paragraph testing 123 This is a test paragraph testing 123 This is a test paragraph testing 123</p>
+     </div>
+  </div>
+ 
+    
+    
+    
+<div id="Michael" class="userInfo MichaelContainer">
+  <div class="userProfile">
+           <img src="creditpics/avatar.png" alt="" style="width:100%"/>
+       <h2 style="">Michael Wooll</h2>
+
+     <p style="padding: 2px 16px;">This is a test paragraph testing 123 This is a test paragraph testing 123 This is a test paragraph testing 123</p>
+     </div>
+  </div>
+  
+ 
+    
+    
+  <div id="Bill" class="userInfo BillContainer">
+     <div class="userProfile">
+           <img src="creditpics/avatar.png" alt="" style="width:100%"/>
+       <h2 style="">Bill Gunadi</h2>
+           
+     <p style="padding: 2px 16px;">This is a test paragraph testing 123 This is a test paragraph testing 123 This is a test paragraph testing 123</p>
+     </div>
+  </div>
+  
+    
+    
+  <div id="Ivan" class="userInfo IvanContainer">
+   <div class="userProfile"> 
+           <img src="creditpics/avatar.png" alt="" style="width:100%"/>
+       <h2 style="">Ivan Llamas</h2>
+
+     <p style="padding: 2px 16px;">This is a test paragraph testing 123 This is a test paragraph testing 123 This is a test paragraph testing 123</p>
+     </div>
+  </div>
+  
+  
+</div>
+    
+<script>
+function userInfo(action, user) {
+    var i;
+    var userInfo;
+    var userRdr;
+    
+    userInfo = document.getElementsByClassName("userInfo");
+    for (i = 0; i < userInfo.length; i++) {
+        userInfo[i].style.display = "none";
+    }
+    
+    userRdr = document.getElementsByClassName("userRdr");
+    for (i = 0; i < userRdr.length; i++) {
+        userRdr[i].className = userRdr[i].className.replace(" active", "");
+    }
+    
+    
+    document.getElementById(user).style.display = "block";
+    action.currentTarget.className += " active";
+}
+document.getElementById("aboutUs").click();
+</script>
+</body>
+</html>

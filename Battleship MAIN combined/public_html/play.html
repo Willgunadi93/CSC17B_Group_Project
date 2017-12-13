@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Play Battleship</title>
+		<script type="text/javascript" src="js/board.js"></script>
+		<script type="text/javascript" src="js/play.js"></script>
+		<script type="text/javascript" src="js/ship.js"></script>
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/play.css">
+		<link type="text/css" rel="stylesheet" href="css/board.css">
+	</head>
+
+	<body>
+		<div id="main-container">
+			<div id="dashboard-container">
+				<div id="dashboard">
+					<!-- <div id="button-names">
+                                <p id ="reset-name">Reset Ship</p>
+                                <p id = "resBoard-name"> Reset Board</p>
+                                <p id="submit-name"> Submit</p>
+                            </div> -->
+					<div id="controls-container">
+						<i class="fa fa-ship controls" aria-hidden="true" id="ship-icon" title="reset ship"></i>
+						<i class="fa fa-undo controls" aria-hidden="true" id="reset-icon" title="reset board"></i>
+						<i class="fa fa-share controls" aria-hidden="true" id="submit-icon" title="submit board"></i>
+					</div>
+					<div id="shipImage">
+					</div>
+					<i class="fa fa-arrow-circle-o-right" id="nextArrow" title="next ship" aria-hidden="true"></i>
+				</div>
+			</div>
+
+			<!--where the player and opponent table will be inserted-->
+			<div id="tables">
+			</div>
+
+
+		</div>
+		<div id="backgroundMusic">
+			<audio id="myAudio" loop>
+ <source src="sounds/battleship.ogg"
+         type='audio/ogg; codecs=vorbis'>
+</audio>
+			<img id="playSound" class="playAudio" src="https://png.icons8.com/audio/color/1600" alt="" onclick="aud_play_pause()">
+			<script>
+				function aud_play_pause() {
+					var myAudio = document.getElementById("myAudio");
+					if (myAudio.paused) {
+
+						myAudio.play();
+					} else {
+						myAudio.pause();
+					}
+				}
+			</script>
+		</div>
+	</body>
+
+</html>
